@@ -38,10 +38,10 @@ import tensorflow as tf  # Importing TensorFlow for building and training models
 # model.fit(x_train, y_train, epochs=3)
 
 # Save the trained model to a file
-# model.save('digits_model.keras')
+# model.save(f'models/digits_model.keras')
 
 # Load the pre-trained model from the file
-model = tf.keras.models.load_model('digits_model.keras')
+model = tf.keras.models.load_model(f'models/digits_model.keras')
 
 # The following lines are commented out. They demonstrate how to evaluate the model on the test data.
 
